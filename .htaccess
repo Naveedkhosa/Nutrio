@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+# redirect "/blog.php?id=xxx" to "/section/xxx"
+RewriteCond %{THE_REQUEST} \s/blog\.php\?id=([0-9]+)\s [NC]
+RewriteRule ^ /blog/%1? [R=301,L]
+
+# internally rewrite "/blog/xxx" to "/blog.php?id=xxx"
+RewriteRule ^blog/([0-9]+)$ /blog.php?id=$1 [L]
+

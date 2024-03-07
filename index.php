@@ -1,10 +1,48 @@
+<?php include "config.php";
+
+function calculate_minutes_to_read($content, $average_speed = 35)
+{
+  $word_count = str_word_count(strip_tags($content));
+  $minutes = ceil($word_count / $average_speed);
+  return $minutes;
+}
+function loadBlogs($start, $limit, $where_clause = "", $order_by = "")
+{
+  global $conn;
+  $sql = "SELECT *, DATE_FORMAT(published_on,'%d %b %Y') AS published_on FROM blogs b INNER JOIN admin a ON b.blog_user=a.user_id  INNER JOIN categories c ON b.blog_category=c.cat_id";
+  $sql .= " WHERE b.blog_status='active' ";
+  if ($where_clause != "") {
+    $sql .= " AND " . $where_clause;
+  }
+
+  if (!empty($order_by)) {
+    $sql .= " ORDER BY " . $order_by;
+  }
+
+  $sql .= " LIMIT " . $start . "," . $limit;
+
+  try {
+    $result =  mysqli_query($conn, $sql);
+    if (mysqli_num_rows($result) > 0) {
+      return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    } else {
+      return 0;
+    }
+  } catch (\Throwable $th) {
+    return false;
+  }
+}
+
+$blogs = loadBlogs(0, 6, '', 'blog_id DESC');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | </title>
+  <title>Home | Edietirian</title>
   <link rel="stylesheet" href="asset/css/style.css">
 
   <!-- Bootstrap CSS -->
@@ -20,40 +58,9 @@
   <div class="div">
 
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container">
-        <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">
-          eDietirian
-        </a>
+    
+  <?php include "inc/nav.php"; ?>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="process.html">Process</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <div class="div-18">
       <div class="div-19">
@@ -117,9 +124,7 @@
           <div class="div-35">
             <div class="div-36">
               <div class="div-37">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/53c11a5ab58c763f9c6c39f03f76262c619985fecc088cb8b6534b2c4540b853?"
-                  class="img-7" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/53c11a5ab58c763f9c6c39f03f76262c619985fecc088cb8b6534b2c4540b853?" class="img-7" />
               </div>
               <div class="div-38">Personalized Nutrition Plans</div>
             </div>
@@ -135,9 +140,7 @@
           <div class="div-40">
             <div class="div-41">
               <div class="div-42">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1c3e108b82115ee10e07e5a2e7f999315ce1b647a5a43fdedad20c268fd3088?"
-                  class="img-8" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1c3e108b82115ee10e07e5a2e7f999315ce1b647a5a43fdedad20c268fd3088?" class="img-8" />
               </div>
               <div class="div-43">Guidance from Certified Nutritionists</div>
             </div>
@@ -157,9 +160,7 @@
           <div class="div-47">
             <div class="div-48">
               <div class="div-49">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/bee7c088b7e0a4e175747000f40f11a9ae886244fddb86c6771afac06901466c?"
-                  class="img-9" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bee7c088b7e0a4e175747000f40f11a9ae886244fddb86c6771afac06901466c?" class="img-9" />
               </div>
               <div class="div-50">Food Tracking and Analysis</div>
             </div>
@@ -175,9 +176,7 @@
           <div class="div-52">
             <div class="div-53">
               <div class="div-54">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8b4872bc44cf6a92076483bd2127c84eef6fe370cc99f43609ec3f70f2f9bba?"
-                  class="img-10" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8b4872bc44cf6a92076483bd2127c84eef6fe370cc99f43609ec3f70f2f9bba?" class="img-10" />
               </div>
               <div class="div-55">Meal Planning and Recipes</div>
             </div>
@@ -197,9 +196,7 @@
           <div class="div-59">
             <div class="div-60">
               <div class="div-61">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/f35b36742f7df1a38dfc1ba10a5a09087b1bf4924fa89cb437141859198c0571?"
-                  class="img-11" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f35b36742f7df1a38dfc1ba10a5a09087b1bf4924fa89cb437141859198c0571?" class="img-11" />
               </div>
               <div class="div-62">Lifestyle and Behavior Coaching</div>
             </div>
@@ -215,9 +212,7 @@
           <div class="div-64">
             <div class="div-65">
               <div class="div-66">
-                <img loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2d4b2c23600d5ed6473ba32a51e20ce1f17fc69fdb94b86c2352362d3c0341c?"
-                  class="img-12" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2d4b2c23600d5ed6473ba32a51e20ce1f17fc69fdb94b86c2352362d3c0341c?" class="img-12" />
               </div>
               <div class="div-67">Nutritional Education and Workshops</div>
             </div>
@@ -240,176 +235,45 @@
         </div>
       </div>
     </div>
+    <!-- blogs -->
     <div class="div-73">
-      <div class="div-74">
-        <div class="column">
-          <div class="div-75">
-            <div class="div-76">
-              <img loading="lazy" src="asset/images/girl1.avif" class="img-13" />
-              <div class="div-77">Weight Loss</div>
-              <div class="div-78">The Benefits of Hydration for Weight Loss</div>
-              <div class="div-79">
-                Discover how staying hydrated can support your weight loss goals
-                and improve overall health.
-              </div>
-              <div class="div-80">
-                <div class="div-81">
-                  <div class="column-6">
-                    <div class="div-82">
-                      <div class="profile_circle">
-                        <img loading="lazy" src="asset/images/boy_image3.avif" class="img-14" />
-                      </div>
-                      <div class="div-83">
-                        <div class="div-84">Emily Johnson</div>
-                        <div class="div-85">23 May 2023 - 5 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column-7">
-                    <div class="div-86">
-                      <div class="div-87">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/115c54d766401cb96bd99f4172b8b54f1aa7e310d6e939f02d583767897f8153?"
-                          class="img-15" />
-                      </div>
-                      <div class="div-88">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b44153a47d00b433f67aa56df76d9cf2abc57aca271af89e1afa956dea7f6585?"
-                          class="img-16" />
-                      </div>
-                    </div>
-                  </div>
+      <?php if (!$blogs) { ?>
+        <p style="text-align:center;padding:10px 20px;color:#990000;">No blog is posted yet, We are creating best content for you. Stay connected with us to improve your health</p>
+      <?php } else { ?>
+        <div class="div-74">
+          <div class="" style="display:flex;flex-wrap:wrap;gap:20px;width:100%;">
+            <?php foreach ($blogs as $key => $blog) { ?>
+              <a href="blog.php/<?= $blog['blog_slug'] ?>" class="div-76 blogs-card">
+                <img loading="lazy" src="uploads/blog_feature_imgs/<?= $blog['blog_image'] ?>" class="img-13" />
+                <div class="div-77"><?= $blog['cat_name'] ?></div>
+                <div class="div-78"><?= $blog['blog_title'] ?></div>
+                <div class="div-79">
+                  <?= $blog['blog_excript'] ?>
                 </div>
-              </div>
-            </div>
-            <div class="div-89">
-              <img loading="lazy" src="asset/images/girl2.avif" class="img-17" />
-              <div class="div-90">Understanding Macronutrients</div>
-              <div class="div-91">Carbohydrates, Proteins, and Fats</div>
-              <div class="div-92">
-                Get a comprehensive understanding of macronutrients and their role
-                in your diet for optimal health and weight management.
-              </div>
-              <div class="div-93">
-                <div class="div-94">
-                  <div class="column-8">
-                    <div class="div-95">
-                      <div class="profile_circle">
-                        <img loading="lazy" src="asset/images/face1.jpg" class="img-18" />
+                <div class="div-80">
+                  <div class="div-81">
+                    <div class="column-6">
+                      <div class="div-82">
+                        <div class="profile_circle">
+                          <img loading="lazy" src="asset/images/<?= $blog['profile_img'] ?>" class="img-14" />
+                        </div>
+                        <div class="div-83">
+                          <div class="div-84"><?= $blog['user_fullname'] ?></div>
+                          <div class="div-85"><?= $blog['published_on'] ?> - <?= calculate_minutes_to_read($blog['blog_content']); ?> min read</div>
+                        </div>
                       </div>
+                    </div>
 
-                      <div class="div-96">
-                        <div class="div-97">Mark Wilson</div>
-                        <div class="div-98">23 May 2023 - 5 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column-9">
-                    <div class="div-99">
-                      <div class="div-100">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/115c54d766401cb96bd99f4172b8b54f1aa7e310d6e939f02d583767897f8153?"
-                          class="img-19" />
-                      </div>
-                      <div class="div-101">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b44153a47d00b433f67aa56df76d9cf2abc57aca271af89e1afa956dea7f6585?"
-                          class="img-20" />
-                      </div>
-                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </a>
+            <?php } ?>
           </div>
         </div>
-        <div class="column-10">
-          <div class="div-102">
-            <div class="div-103">
-              <img loading="lazy" src="asset/images/girl_img2.avif" class="img-21" />
-              <div class="div-104">Mindful Eating</div>
-              <div class="div-105">
-                Cultivating a Healthy Relationship with Food
-              </div>
-              <div class="div-106">
-                Learn how practicing mindful eating can help you develop a
-                healthier relationship with food and improve your overall
-                well-being.
-              </div>
-              <div class="div-107">
-                <div class="div-108">
-                  <div class="column-11">
-                    <div class="div-109">
+      <?php } ?>
 
-                      <div class="profile_circle">
-                        <img loading="lazy" src="asset/images/dr.jpg" class="img-22" />
-                      </div>
-                      <div class="div-110">
-                        <div class="div-111">Sarah Thompson</div>
-                        <div class="div-112">23 May 2023 - 5 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column-12">
-                    <div class="div-113">
-                      <div class="div-114">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/115c54d766401cb96bd99f4172b8b54f1aa7e310d6e939f02d583767897f8153?"
-                          class="img-23" />
-                      </div>
-                      <div class="div-115">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b44153a47d00b433f67aa56df76d9cf2abc57aca271af89e1afa956dea7f6585?"
-                          class="img-24" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="div-116">
-              <img loading="lazy" src="asset/images/dr.jpg" class="img-25" />
-              <div class="div-117">Healthy Snacks on the Go</div>
-              <div class="div-118">Quick and Nutritious Options</div>
-              <div class="div-119">
-                Explore a variety of convenient and healthy snack ideas to keep
-                you fueled throughout the day.
-              </div>
-              <div class="div-120">
-                <div class="div-121">
-                  <div class="column-13">
-                    <div class="div-122">
-
-                      <div class="profile_circle">
-                        <img loading="lazy" src="asset/images/boy_image1.jpg" class="img-26" />
-                      </div>
-                      <div class="div-123">
-                        <div class="div-124">Emily Johnson</div>
-                        <div class="div-125">23 May 2023 - 5 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column-14">
-                    <div class="div-126">
-                      <div class="div-127">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/115c54d766401cb96bd99f4172b8b54f1aa7e310d6e939f02d583767897f8153?"
-                          class="img-27" />
-                      </div>
-                      <div class="div-128">
-                        <img loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b44153a47d00b433f67aa56df76d9cf2abc57aca271af89e1afa956dea7f6585?"
-                          class="img-28" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+    <!-- blogs -->
     <div class="div-129">
       <div class="div-130">
         <div class="div-131">Our Testimonials</div>
@@ -424,9 +288,7 @@
         <div class="column-15">
           <div class="div-135">
             <div class="div-136">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/78402e6aedfa3a62a6ae9c70c5b3394935f4086bcc7d680f19c06540eabcd12c?"
-                class="img-29" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/78402e6aedfa3a62a6ae9c70c5b3394935f4086bcc7d680f19c06540eabcd12c?" class="img-29" />
               <div class="div-137">
                 I can't thank Nutritionist enough for their personalized nutrition
                 coaching. It has completely transformed my approach to food and
@@ -445,9 +307,7 @@
         <div class="column-16">
           <div class="div-140">
             <div class="div-141">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/80ec84e9ad7ceb7e6e1e0a3e462cd02728a60451d1da310a117336ab73dc0895?"
-                class="img-31" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80ec84e9ad7ceb7e6e1e0a3e462cd02728a60451d1da310a117336ab73dc0895?" class="img-31" />
               <div class="div-142">
                 Nutritionist has been a game-changer for me. The expert guidance
                 and support I received from their team made my weight loss journey
@@ -466,9 +326,7 @@
         <div class="column-17">
           <div class="div-145">
             <div class="div-146">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/622e8c929b4aa27b4847ea16003084206318c2085a56c54e55d815051e2b5276?"
-                class="img-33" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/622e8c929b4aa27b4847ea16003084206318c2085a56c54e55d815051e2b5276?" class="img-33" />
               <div class="div-147">
                 I had struggled with my weight for years until I found
                 Nutritionist. Their personalized approach and tailored nutrition
@@ -489,9 +347,7 @@
     <div class="div-150">
       <div class="div-151">
         <div class="div-152">
-          <img loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3664d9f021538ecff558b007edc3ee66d446fc65606fd7d5d252d9640c33335?"
-            class="img-35" />
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3664d9f021538ecff558b007edc3ee66d446fc65606fd7d5d252d9640c33335?" class="img-35" />
         </div>
         <div class="div-153">
           <div class="div-154"></div>
@@ -501,9 +357,7 @@
           <div class="div-158"></div>
         </div>
         <div class="div-159">
-          <img loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5b2501245b621e326a517dad2d470fd4179b07b1a996b6425435d856ce677bf?"
-            class="img-36" />
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5b2501245b621e326a517dad2d470fd4179b07b1a996b6425435d856ce677bf?" class="img-36" />
         </div>
       </div>
     </div>
@@ -579,9 +433,7 @@
     <div class="div-194">
       <div class="div-195">
         <div class="div-196">
-          <img loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/908ef6eab208da116ff75e260cc91c1cc11e124d7cf350debae2a78d9eb6f1fe?"
-            class="img-37" />
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/908ef6eab208da116ff75e260cc91c1cc11e124d7cf350debae2a78d9eb6f1fe?" class="img-37" />
           <div class="div-197">
             <div class="div-198">Home</div>
             <div class="div-199">About</div>
@@ -594,30 +446,22 @@
           <div class="div-205">
             <div class="div-206">Got To Top</div>
             <div class="div-207">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/fbfff4234dd4d279aca22e18674a0312548d1366e754645c5eef7f55a25cb7c8?"
-                class="img-38" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fbfff4234dd4d279aca22e18674a0312548d1366e754645c5eef7f55a25cb7c8?" class="img-38" />
             </div>
           </div>
         </div>
         <div class="div-208">
           <div class="div-209">
             <div class="div-210">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd80754d59ecafe47605e08b7cf2da709be8ce89743ecd37635b28590ea062bc?"
-                class="img-39" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd80754d59ecafe47605e08b7cf2da709be8ce89743ecd37635b28590ea062bc?" class="img-39" />
               <div class="div-211">munna@gmail.com</div>
             </div>
             <div class="div-212">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a791a59734258aa73037e3b9a8c71dff93229d2044b7fec60c07a3bb19a744?"
-                class="img-40" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a791a59734258aa73037e3b9a8c71dff93229d2044b7fec60c07a3bb19a744?" class="img-40" />
               <div class="div-213">+91 9560615174</div>
             </div>
             <div class="div-214">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5a77779ad27c1b4d987d98e83e11d4145d03e5916065d159fb786ece12d9005?"
-                class="img-41" />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5a77779ad27c1b4d987d98e83e11d4145d03e5916065d159fb786ece12d9005?" class="img-41" />
               <div class="div-215">Somewhere in the World</div>
             </div>
           </div>

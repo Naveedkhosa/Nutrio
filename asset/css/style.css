@@ -1103,12 +1103,25 @@
     flex-direction: column;
     padding: 40px;
   }
+  .blogs-card{
+    max-width: calc(50% - 10px);
+  }
   @media (max-width: 991px) {
     .div-76 {
       max-width: 100%;
       padding: 0 20px;
     }
   }
+  @media (max-width: 1101px) {
+    .blogs-card{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  
+
+
   .img-13 {
     aspect-ratio: 1.64;
     object-fit: cover;

@@ -1,0 +1,62 @@
+.response-msg{
+    background: #f1f1f1;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.response-msg.error{
+color: red;
+}
+.response-msg.success{
+    color: green;
+}
+.response-msg.hidden{
+    display: none;
+}
+.post-form{
+    width: 100%;
+    padding: 20px 0;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputBox label{
+    padding-bottom: 7px;
+    color: #ff0076;
+}
+.inputBox input,.inputBox textarea{
+    width: 100%;
+    border: none;
+    padding: 7px 15px;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.inputBox textarea{
+    resize: vertical;
+    padding: 15px;
+}
+
+.inputBox #description{
+    height: 100px;
+}
+
+ .btn-btn-primary{
+     padding: 7px 15px;
+     background: #ff0076;
+     border-radius: 3px;
+     color: #fff;
+     border: none;
+     outline: none;
+     border: 1px solid #ff0076;
+     margin-bottom: 20px;
+     cursor: pointer;
+}
+.btn-btn-primary:hover{
+    color: #ff0076;
+    background: transparent;
+}

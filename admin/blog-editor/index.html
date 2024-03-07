@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="post_header">
+            <div class="breadcrumb">Posts / blog</div>
+            <div class="publish_btn">Publish</div>
+        </div>
+        <div class="post_field">
+            <label for="post_title">Post Title</label>
+            <input type="text" id="post_title" placeholder="max 60 to 70 characters">
+        </div>
+        <div class="post_field">
+            <label for="post_feature_img">Feature Image</label>
+            <input type="file" id="post_feature_img">
+        </div>
+        <div id="editorjs"></div>
+        <div class="post_field">
+            <label for="meta_tags">Meta Tags</label>
+            <input type="text" id="meta_tags" placeholder="Comma Seperated tags i.e tag 1, tag 2">
+        </div>
+    </div>
+    
+    <script src="editor.js"></script>
+    <script src="tools/embed/index.js"></script>
+    <script src="tools/link/index.js"></script>
+    <script src="tools/header/index.js"></script>
+    <script src="tools/editor-js-code/index.js"></script>
+    <script src="tools/image/index.js"></script>
+    <script src="tools/list/index.js"></script>
+    <script src="tools/quote/index.js"></script>
+    <script src="tools/raw/index.js"></script>
+    <script src="tools/checklist/index.js"></script>
+    <script src="parse-as-html/index.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
