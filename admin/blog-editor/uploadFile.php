@@ -24,7 +24,7 @@ if (isset($_FILES['image'])) {
         if(move_uploaded_file($tmp_name,"../../uploads/blog_posts/".$new_name)){
             $result['success'] = 1;
             $result['msg'] = "File uploaded successfully";
-            $result['file']['url'] = "http://localhost/projects/nutrio/uploads/blog_posts/".$new_name;
+            $result['file']['url'] = "https://dietirian.com/uploads/blog_posts/".$new_name;
         }else{
             $result['success'] = 0; 
         }

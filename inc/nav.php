@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="http://localhost/projects/Nutrio/">
+        <a class="navbar-brand" href="https://dietirian.com/">
             eDietirian
         </a>
 
@@ -14,19 +14,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/projects/Nutrio/index.php">Home</a>
+                    <a class="nav-link" href="https://dietirian.com/index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/projects/Nutrio/about.php">About</a>
+                    <a class="nav-link" href="https://dietirian.com/about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/projects/Nutrio/process.php">process</a>
+                    <a class="nav-link" href="https://dietirian.com/process.php">process</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/projects/Nutrio/blogs.php">Blogs</a>
+                    <a class="nav-link" href="https://dietirian.com/blogs.php">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/projects/Nutrio/contact-us.php">Contact</a>
+                    <a class="nav-link" href="https://dietirian.com/contact-us.php">Contact</a>
                 </li>
             </ul>
         </div>

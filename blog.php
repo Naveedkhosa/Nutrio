@@ -74,8 +74,8 @@ function calculate_minutes_to_read($content, $average_speed = 35)
   <meta name="description" content="<?= $blog['blog_title'] ?? "" ?>">
   <meta name="keywords" content="<?= $blog['blog_tags'] ?? "" ?>">
   <meta name="author" content="<?= $blog['user_fullname'] ?? "" ?>">
-  <link rel="stylesheet" href="http://localhost/projects/nutrio/asset/css/blogs.css" />
-  <link rel="stylesheet" href="http://localhost/projects/nutrio/asset/css/style.css">
+  <link rel="stylesheet" href="https://dietirian.com/asset/css/blogs.css" />
+  <link rel="stylesheet" href="https://dietirian.com/asset/css/style.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -106,7 +106,7 @@ function calculate_minutes_to_read($content, $average_speed = 35)
         <h1><?= $blog['blog_title'] ?? ""; ?></h1>
         <div class="author_det_box">
           <div class="author_profile">
-            <img src="http://localhost/projects/nutrio/asset/images/<?= $blog['profile_img'] ?? ""; ?>" alt="<?= $blog['user_fullname'] ?? ""; ?> profile" />
+            <img src="https://dietirian.com/asset/images/<?= $blog['profile_img'] ?? ""; ?>" alt="<?= $blog['user_fullname'] ?? ""; ?> profile" />
           </div>
           <div class="author_detail">
             <div class="author_det_top reg_bold_para">
@@ -145,12 +145,12 @@ function calculate_minutes_to_read($content, $average_speed = 35)
                 } else { ?>
                   <div class="blog_card">
                     <div class="blog_card_top">
-                      <img src="http://localhost/projects/nutrio/uploads/blog_feature_imgs/<?= $blog_item['blog_image'] ?>" alt="">
+                      <img src="https://dietirian.com/uploads/blog_feature_imgs/<?= $blog_item['blog_image'] ?>" alt="">
                     </div>
                     <div class="blog_card_bottom">
                       <div class="blog_card_profile">
                         <div class="profile_card_img">
-                          <img src="http://localhost/projects/nutrio/asset/images/<?= $blog_item['profile_img'] ?>" alt="">
+                          <img src="https://dietirian.com/asset/images/<?= $blog_item['profile_img'] ?>" alt="">
                         </div>
                         <p><?= $blog_item['user_fullname'] ?></p>
                       </div>

@@ -35,15 +35,15 @@ const editor = new EditorJS({
         linkTool: {
             class: LinkTool,
             config: {
-                endpoint: 'http://localhost/projects/nutrio/admin/blog-editor/link.php', // Your backend endpoint for url data fetching,
+                endpoint: 'https://dietirian.com/admin/blog-editor/link.php', // Your backend endpoint for url data fetching,
             },
         },
         image: {
             class: ImageTool,
             config: {
                 endpoints: {
-                    byFile: 'http://localhost/projects/nutrio/admin/blog-editor/uploadFile.php', // Your backend file uploader endpoint
-                    byUrl: 'http://localhost/projects/nutrio/admin/blog-editor/fetchUrl.php', // Your endpoint that provides uploading by Url
+                    byFile: 'https://dietirian.com/admin/blog-editor/uploadFile.php', // Your backend file uploader endpoint
+                    byUrl: 'https://dietirian.com/admin/blog-editor/fetchUrl.php', // Your endpoint that provides uploading by Url
                 }
             }
         },
