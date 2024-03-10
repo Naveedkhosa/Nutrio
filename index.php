@@ -69,14 +69,10 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         </div>
         <div class="column-2">
           <div class="div-20">
-            <div class="div-21">Transform Your ❤ Health with</div>
+            <div class="div-21">Enhance Your 🖤Health with</div>
             <div class="div-22">Personalized Nutrition Coaching</div>
             <div class="div-23">
-              Welcome to Nutritionist, your partner in achieving optimal health
-              through personalized nutrition coaching. Our certified nutritionists
-              are here to guide you on your weight loss journey, providing
-              customized plans and ongoing support. Start your transformation
-              today and experience the power of personalized nutrition coaching.
+            Wellcom to Nutritionists, our certified nutritionists are dedicated to helping you achieve wellness through treatment planning and ongoing support. Start your weight loss journey today and discover the benefits of personal nutrition coaching.
             </div>
             <div class="div-24">
               <a href="" class="div-25">Get Appointment</a>
@@ -129,10 +125,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-38">Personalized Nutrition Plans</div>
             </div>
             <div class="div-39">
-              Receive a tailored nutrition plan designed specifically for your
-              body and goals. Our certified nutritionists will consider your
-              unique needs, dietary preferences, and health conditions to create a
-              plan that suits you best.
+            Get a meal plan that suits you and your goals. Our team of certified nutritionists will take into account your personal needs, dietary preferences, and any other health needs to create a plan that is right for you.
             </div>
           </div>
         </div>
@@ -145,10 +138,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-43">Guidance from Certified Nutritionists</div>
             </div>
             <div class="div-44">
-              Our team of experienced and certified nutritionists will provide
-              professional guidance and support throughout your journey. They will
-              answer your questions, address your concerns, and keep you motivated
-              as you work towards your goals.
+            As you begin your journey to better health, you'll receive expert advice and support from our team of nutrition experts. Get answers to your questions, address your concerns, and stay informed every step of the way.
             </div>
           </div>
         </div>
@@ -165,10 +155,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-50">Food Tracking and Analysis</div>
             </div>
             <div class="div-51">
-              Effortlessly track your food intake using our user-friendly app. Our
-              nutritionists will analyze your data to provide insights into your
-              eating habits, help you identify areas for improvement, and make
-              personalized recommendations.
+            Easily track your food with our intuitive app. Our team of nutrition experts will examine your data to understand your eating habits, identify areas for improvement, and provide personalized recommendations.
             </div>
           </div>
         </div>
@@ -181,10 +168,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-55">Meal Planning and Recipes</div>
             </div>
             <div class="div-56">
-              Access a vast collection of delicious and healthy recipes tailored
-              to your dietary needs. Our nutritionists will also create
-              personalized meal plans, making it easier for you to stay on track
-              and enjoy nutritious meals.
+            I believe having access to a variety of delicious and healthy foods tailored to your nutritional needs can improve your meal planning. With a personalized meal plan created by a nutritionist, following a healthy diet will be easy and you'll enjoy it.
             </div>
           </div>
         </div>
@@ -201,10 +185,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-62">Lifestyle and Behavior Coaching</div>
             </div>
             <div class="div-63">
-              Achieving sustainable results requires more than just a diet plan.
-              Our nutritionists will work with you to develop healthy habits,
-              address emotional eating, and provide strategies to overcome
-              obstacles along the way.
+            In the opinion of a nutritionist, sustainable results go beyond mere dietary plans. Our focus lies in cultivating healthy habits, tackling emotional eating patterns, and equipping individuals with effective strategies to navigate challenges on their wellness journey.
             </div>
           </div>
         </div>
@@ -217,9 +198,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <div class="div-67">Nutritional Education and Workshops</div>
             </div>
             <div class="div-68">
-              Expand your knowledge of nutrition through informative articles and
-              educational workshops. Our nutritionists will equip you with the
-              knowledge and tools to make informed choices for long-term success.
+            Enhance your understanding of nutrition with insightful articles and engaging workshops. Our team of nutritionists will provide you with the necessary knowledge and resources to make informed decisions for sustained well-being.
             </div>
           </div>
         </div>
@@ -229,9 +208,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
       <div class="div-70">
         <div class="div-71">Our Blogs</div>
         <div class="div-72">
-          Our blog is a treasure trove of informative and engaging articles
-          written by our team of nutritionists, dietitians, and wellness experts.
-          Here's what you can expect from our blog.
+        Explore our blog, newsletters and engaging articles created by our team of nutritionists, nutritionists and health experts. Get access to a wealth of valuable insights and engaging content waiting for you.
         </div>
       </div>
     </div>

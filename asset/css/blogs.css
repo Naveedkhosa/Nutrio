@@ -7,11 +7,14 @@
     font-family: "Source Serif 4", serif , sans-serif;
     font-optical-sizing: auto;
 
+ 
+
 }
 hr{
     outline: none;
     border: none;
     border-bottom: 1px solid #cccc;
+    
 
 }
 
