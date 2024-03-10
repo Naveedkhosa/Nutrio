@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="https://dietirian.com/">
-            eDietirian
+            Dietirian
         </a>
 
         <!-- Toggler/collapsibe Button -->
