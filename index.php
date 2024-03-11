@@ -9,7 +9,7 @@ function calculate_minutes_to_read($content, $average_speed = 35)
 function loadBlogs($start, $limit, $where_clause = "", $order_by = "")
 {
   global $conn;
-  $sql = "SELECT *, DATE_FORMAT(published_on,'%d %b %Y') AS published_on FROM blogs b INNER JOIN admin a ON b.blog_user=a.user_id  INNER JOIN categories c ON b.blog_category=c.cat_id";
+  $sql = "SELECT *, DATE_FORMAT(published_on,'%d %b %Y') AS published_on FROM blogs b INNER JOIN admin a ON b.blog_user=a.user_id";
   $sql .= " WHERE b.blog_status='active' ";
   if ($where_clause != "") {
     $sql .= " AND " . $where_clause;
@@ -222,7 +222,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             <?php foreach ($blogs as $key => $blog) { ?>
               <a href="blog.php/<?= $blog['blog_slug'] ?>" class="div-76 blogs-card">
                 <img loading="lazy" src="uploads/blog_feature_imgs/<?= $blog['blog_image'] ?>" class="img-13" />
-                <div class="div-77"><?= $blog['cat_name'] ?></div>
+              
                 <div class="div-78"><?= $blog['blog_title'] ?></div>
                 <div class="div-79">
                   <?= $blog['blog_excript'] ?>

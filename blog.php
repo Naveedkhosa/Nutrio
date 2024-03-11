@@ -4,7 +4,7 @@ $page_uri = $_SERVER["REQUEST_URI"];
 $uri_elems = explode("/", $page_uri);
 $slug = end($uri_elems);
 
-$query = "SELECT *,DATE_FORMAT(b.published_on,'%d %b, %Y') as published_on FROM blogs b INNER JOIN admin a ON a.user_id = b.blog_user INNER JOIN categories c ON b.blog_category = c.cat_id WHERE b.blog_slug = '{$slug}';";
+$query = "SELECT *,DATE_FORMAT(b.published_on,'%d %b, %Y') as published_on FROM blogs b INNER JOIN admin a ON a.user_id = b.blog_user WHERE b.blog_slug = '{$slug}';";
 
 $blog = null;
 try {
@@ -24,7 +24,7 @@ try {
 function loadBlogs($start = 0, $limit = 7, $where_clause = "", $order_by = "")
 {
   global $conn;
-  $sql = "SELECT *,DATE_FORMAT(published_on,'%d %b %Y') as published_on FROM `blogs` b INNER JOIN `admin` a ON b.blog_user=a.user_id INNER JOIN categories c ON b.blog_category=c.cat_id WHERE b.blog_status='active'";
+  $sql = "SELECT *,DATE_FORMAT(published_on,'%d %b %Y') as published_on FROM `blogs` b INNER JOIN `admin` a ON b.blog_user=a.user_id WHERE b.blog_status='active'";
   if ($where_clause != "") {
     $sql .= " AND (" . $where_clause . ")";
   }
