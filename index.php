@@ -75,8 +75,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         </div>
         <div class="column-2">
           <div class="div-20">
-            <div class="div-21">Enhance Your 🖤Health with</div>
-            <div class="div-22">Personalized Nutrition Coaching</div>
+            <div class="div-21">Enhance Your 🖤 Health with</div>
+            <h1 class="div-22">Personalized Nutrition Coaching</h1>
             <div class="div-23">
             Wellcom to Nutritionists, our certified nutritionists are dedicated to helping you achieve wellness through treatment planning and ongoing support. Start your weight loss journey today and discover the benefits of personal nutrition coaching.
             </div>
@@ -454,7 +454,24 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     </div>
   </div>
 
-
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Your Nutrition & Dietitian Services",
+    "url": "https://dietirian.com/",
+    "description": "Transform your health with personalized nutrition and dietitian services.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "street no.2 Dera Ghazi Khan City",
+      "addressLocality": "Dera Ghazi Khna",
+      "addressRegion": "Pakistan",
+      "postalCode": "32381",
+      "addressCountry": "Pakistan"
+    },
+    "telephone": "+923106378129"
+  }
+  </script>
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
