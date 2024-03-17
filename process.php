@@ -164,28 +164,22 @@
     <div class="div">
         <div class="div-194">
           <div class="div-195">
-            <div class="div-196">
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/908ef6eab208da116ff75e260cc91c1cc11e124d7cf350debae2a78d9eb6f1fe?"
-                class="img-37" />
-              <div class="div-197">
-                <div class="div-198">Home</div>
-                <div class="div-199">About</div>
-                <div class="div-200">Team</div>
-                <div class="div-201">Process</div>
-                <div class="div-202">Pricing</div>
-                <div class="div-203">Blog</div>
-                <div class="div-204">Contact</div>
-              </div>
-              <div class="div-205">
-                <div class="div-206">Got To Top</div>
-                <div class="div-207">
-                  <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/fbfff4234dd4d279aca22e18674a0312548d1366e754645c5eef7f55a25cb7c8?"
-                    class="img-38" />
-                </div>
-              </div>
+          <div class="div-196">
+          <div class="logo">Diet <span>irian</span></div>
+          <div class="div-197">
+            <a href="#" class="div-198">Home</a>
+            <a href="about.php" class="div-199">About</a>
+            <a href="process.php" class="div-201">Process</a>
+            <a href="blogs.php"  class="div-203">Blogs</a>
+            <a href="contactUs.php"  class="div-204">Contact</a>
+          </div>
+          <a href="#top" class="div-205">
+            <div class="div-206">Got To Top</div>
+            <div class="div-207">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fbfff4234dd4d279aca22e18674a0312548d1366e754645c5eef7f55a25cb7c8?" class="img-38" />
             </div>
+            </a>
+        </div>
             <div class="div-208">
               <div class="div-209">
                 <div class="div-210">
