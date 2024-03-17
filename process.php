@@ -162,15 +162,17 @@
         </div>
     </div>
     <div class="div">
-        <div class="div-194">
-          <div class="div-195">
-          <div class="div-196">
+    <div class="div-194">
+      <div class="div-195">
+        <div class="div-196">
           <div class="logo">Diet <span>irian</span></div>
           <div class="div-197">
             <a href="#" class="div-198">Home</a>
             <a href="about.php" class="div-199">About</a>
             <a href="process.php" class="div-201">Process</a>
             <a href="blogs.php"  class="div-203">Blogs</a>
+            <a href="privacy-policy.php"  class="div-203">privacy-policy</a>
+            <a href="Terms-&-Conditions.php"  class="div-203">Terms & Conditions</a>
             <a href="contactUs.php"  class="div-204">Contact</a>
           </div>
           <a href="#top" class="div-205">
@@ -180,33 +182,27 @@
             </div>
             </a>
         </div>
-            <div class="div-208">
-              <div class="div-209">
-                <div class="div-210">
-                  <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd80754d59ecafe47605e08b7cf2da709be8ce89743ecd37635b28590ea062bc?"
-                    class="img-39" />
-                  <div class="div-211">munna@gmail.com</div>
-                </div>
-                <div class="div-212">
-                  <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a791a59734258aa73037e3b9a8c71dff93229d2044b7fec60c07a3bb19a744?"
-                    class="img-40" />
-                  <div class="div-213">+91 9560615174</div>
-                </div>
-                <div class="div-214">
-                  <img loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5a77779ad27c1b4d987d98e83e11d4145d03e5916065d159fb786ece12d9005?"
-                    class="img-41" />
-                  <div class="div-215">Somewhere in the World</div>
-                </div>
-              </div>
-              <div class="div-216">© 2023 Nutritionist. All rights reserved.</div>
+        <div class="div-208">
+          <div class="div-209">
+            <div class="div-210">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd80754d59ecafe47605e08b7cf2da709be8ce89743ecd37635b28590ea062bc?" class="img-39" />
+              <div class="div-211">mansab@dietirian.com</div>
+            </div>
+            <div class="div-212">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a791a59734258aa73037e3b9a8c71dff93229d2044b7fec60c07a3bb19a744?" class="img-40" />
+              <div class="div-213">+923411707664</div>
+            </div>
+            <div class="div-214">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5a77779ad27c1b4d987d98e83e11d4145d03e5916065d159fb786ece12d9005?" class="img-41" />
+              <div class="div-215">Somewhere in the World</div>
             </div>
           </div>
+          <div class="div-216">© 2023 to 2024 Dietirian. All rights reserved.</div>
         </div>
       </div>
-    
+    </div>
+  </div>
+ 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
