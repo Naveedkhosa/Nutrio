@@ -171,7 +171,7 @@
             <a href="about.php" class="div-199">About</a>
             <a href="process.php" class="div-201">Process</a>
             <a href="blogs.php"  class="div-203">Blogs</a>
-            <a href="privacy-policy.php"  class="div-203">privacy-policy</a>
+            <a href="privacy-policy.php"  class="div-203">Privacy Policy</a>
             <a href="Terms-&-Conditions.php"  class="div-203">Terms & Conditions</a>
             <a href="contactUs.php"  class="div-204">Contact</a>
           </div>
