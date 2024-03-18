@@ -274,7 +274,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+                <img src="images/face1.jpg" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
@@ -298,7 +298,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+                <img src="images/dr.jpg" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
@@ -322,7 +322,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+                <img src="images/noy_imgage1.jpg" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
@@ -346,7 +346,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+                <img src="images/boy_image3.avif" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
@@ -370,7 +370,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+                <img src="images/girl1.avif" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
