@@ -99,10 +99,10 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
                 </div>
               </div>
               <div class="div-28">
-                <span style="font-weight: 700; color: rgba(70, 134, 113, 1)">
+                <span style="font-weight: 700;">
                   430+
                 </span>
-                <span style="color: rgba(35, 67, 56, 1)">Happy Customers</span>
+                <span class="text_main" >Happy Customers</span>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column">
           <div class="div-35">
             <div class="div-36">
-              <div class="div-37">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/53c11a5ab58c763f9c6c39f03f76262c619985fecc088cb8b6534b2c4540b853?" class="img-7" />
               </div>
               <div class="div-38">Personalized Nutrition Plans</div>
@@ -138,7 +138,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-3">
           <div class="div-40">
             <div class="div-41">
-              <div class="div-42">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1c3e108b82115ee10e07e5a2e7f999315ce1b647a5a43fdedad20c268fd3088?" class="img-8" />
               </div>
               <div class="div-43">Guidance from Certified Nutritionists</div>
@@ -155,7 +155,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column">
           <div class="div-47">
             <div class="div-48">
-              <div class="div-49">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bee7c088b7e0a4e175747000f40f11a9ae886244fddb86c6771afac06901466c?" class="img-9" />
               </div>
               <div class="div-50">Food Tracking and Analysis</div>
@@ -168,7 +168,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-4">
           <div class="div-52">
             <div class="div-53">
-              <div class="div-54">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8b4872bc44cf6a92076483bd2127c84eef6fe370cc99f43609ec3f70f2f9bba?" class="img-10" />
               </div>
               <div class="div-55">Meal Planning and Recipes</div>
@@ -185,7 +185,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column">
           <div class="div-59">
             <div class="div-60">
-              <div class="div-61">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f35b36742f7df1a38dfc1ba10a5a09087b1bf4924fa89cb437141859198c0571?" class="img-11" />
               </div>
               <div class="div-62">Lifestyle and Behavior Coaching</div>
@@ -198,7 +198,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-5">
           <div class="div-64">
             <div class="div-65">
-              <div class="div-66">
+              <div class="div_37">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2d4b2c23600d5ed6473ba32a51e20ce1f17fc69fdb94b86c2352362d3c0341c?" class="img-12" />
               </div>
               <div class="div-67">Nutritional Education and Workshops</div>
@@ -354,10 +354,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         </div>
       </div>
     </div>
-    <div class="div-164">
-      <div class="div-165">Monthly</div>
-      <div class="div-166">Yearly</div>
-    </div>
+
     <div class="div-167">Save 50% on Yearly</div>
     <div class="div-168">
       <div class="div-169">
@@ -370,11 +367,11 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               personalized nutrition coaching, access to our app, meal planning
               assistance, and email support.
             </div>
-            <div class="div-174">
-              <div class="div-175">$49</div>
-              <div class="div-176">/month</div>
+            <div class="div_174">
+              <p class="Bold_font">$49</p>
+              <p >/month</p>
             </div>
-            <div class="div-177">Choose Plan</div>
+            <div class="div_193">Choose Plan</div>
           </div>
         </div>
         <div class="column-19">
@@ -386,11 +383,11 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               the Basic Plan, you'll receive video consultations, priority
               support, and personalized recipe recommendations.
             </div>
-            <div class="div-182">
-              <div class="div-183">$79</div>
-              <div class="div-184">/month</div>
+            <div class="div_174">
+              <p class="Bold_font">$79</p>
+              <p >/month</p>
             </div>
-            <div class="div-185">Choose Plan</div>
+            <div class="div_193">Choose Plan</div>
           </div>
         </div>
         <div class="column-20">
@@ -402,11 +399,11 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               our Ultimate Plan. Enjoy all the features of the Premium Plan, along
               with 24/7 chat support and exclusive workshops.
             </div>
-            <div class="div-190">
-              <div class="div-191">$99</div>
-              <div class="div-192">/month</div>
+            <div class="div_174">
+              <p class="Bold_font">$99</p>
+              <p >/month</p>
             </div>
-            <div class="div-193">Choose Plan</div>
+            <div class="div_193">Choose Plan</div>
           </div>
         </div>
       </div>

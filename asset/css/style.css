@@ -1,4 +1,11 @@
 
+:root {
+  --Theme_main: #191D88;
+  --thin_main: #337CCF;
+  --theme: #FFC436;
+  --white: #ffffff;
+  --text_color: #333;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +17,7 @@
 /* nav style */
 .navbar {
   width: 100%;
-  background-color: #30475e;
+  background-color: var(--Theme_main);
 }
 
 .navbar-brand {
@@ -19,11 +26,10 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #fff;
   position: relative; 
   transition: 0.3s;
   font-weight: 400;
-  color:#fff;
+  color:var(--theme);
 }
 
 .navbar-nav .nav-item .nav-link::before {
@@ -33,14 +39,13 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f8b739;
   transition: 0.3s;
-  color:#fff;
+  color:var(--theme);
 }
 
 .navbar-nav .nav-item .nav-link:hover::before {
   width: 100%; 
-  color: #fff;
+  color: var(--theme);
 }
 .profile_circle{
   width: 60px;
@@ -370,7 +375,7 @@
     }
   }
   .div-21 {
-    border-bottom: 3px solid var(--Green-70, #cbea7b);
+    border-bottom: 3px solid var(--theme);
     align-self: start;
     justify-content: center;
     color: var(--Dark-Green-15, #1a3129);
@@ -383,7 +388,7 @@
     }
   }
   .div-22 {
-    color: var(--Dark-Green-15, #1a3129);
+    color: var(--thin_main);
     margin-top: 14px;
     font: 700 58px Urbanist, sans-serif;
   }
@@ -409,7 +414,7 @@
     margin-top: 50px;
     gap: 20px;
     font-size: 18px;
-    color: var(--Grey-15, #262626);
+    color: var(--white);
     line-height: 150%;
   }
   @media (max-width: 991px) {
@@ -422,10 +427,13 @@
   .div-25 {
     font-family: Urbanist, sans-serif;
     border-radius: 8px;
-    background-color: var(--Green-70, #cbea7b);
+    background-color: var(--theme);
     flex-grow: 1;
     justify-content: center;
     padding: 16px 20px;
+  }
+  .div-24 a{
+    color: var(--Theme_main);
   }
   .div-26 {
     font-family: Urbanist, sans-serif;
@@ -469,6 +477,12 @@
     flex-grow: 1;
     flex-basis: auto;
     margin: auto 0;
+  }
+  .text_main{
+    color: var(--text_color) !important;
+  }
+  .div-28 span{
+    color: var(--theme);
   }
   @media (max-width: 991px) {
     .div-28 {
@@ -572,10 +586,10 @@
       flex-wrap: wrap;
     }
   }
-  .div-37 {
+  .div_37 {
     align-items: center;
     border-radius: 8px;
-    background-color: var(--Green-70, #cbea7b);
+    background-color: var(--theme);
     display: flex;
     aspect-ratio: 1;
     justify-content: center;
@@ -2547,26 +2561,32 @@
     margin-top: 40px;
     font: 500 18px/27px Urbanist, sans-serif;
   }
-  .div-174 {
+  .div_174 {
     justify-content: center;
     align-self: start;
     display: flex;
     margin-top: 40px;
     gap: 4px;
     white-space: nowrap;
+    color: var(--thin_main) !important;
   }
+  .Bold_font
+    {
+      font-size: 40px;
+    }
+  
   @media (max-width: 991px) {
-    .div-174 {
+    .div_174 {
       white-space: initial;
     }
   }
-  .div-175 {
+  .div_175 {
     color: var(--Dark-Green-25, #2c5446);
     flex-grow: 1;
     font: 700 50px/88% Urbanist, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-175 {
+    .div_175 {
       font-size: 40px;
     }
   }
@@ -2777,13 +2797,13 @@
     margin: auto 0;
     font: 500 18px/150% Urbanist, sans-serif;
   }
-  .div-193 {
+  .div_193 {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: var(--Green-70, #cbea7b);
+    background-color: var(--theme);
     margin-top: 33px;
-    color: var(--Grey-15, #262626);
+    color: var(--Theme_main);
     white-space: nowrap;
     padding: 18px 60px;
     font: 600 18px Urbanist, sans-serif;
@@ -2797,7 +2817,7 @@
   .div-194 {
     align-items: center;
     border-top: 1px solid var(--Grey-15, #262626);
-    background-color: var(--Dark-Green-15, #1a3129);
+    background-color: var(--Theme_main);
     align-self: stretch;
     display: flex;
     margin-top: 150px;
@@ -2856,6 +2876,9 @@
     white-space: nowrap;
     line-height: 150%;
     margin: auto 0;
+  }
+  .div-197 a{
+    color: var(--theme);
   }
   @media (max-width: 991px) {
     .div-197 {
@@ -2920,7 +2943,7 @@
     justify-content: space-between;
     border-radius: 8px;
     border: 1px solid var(--Dark-Green-25, #2c5446);
-    background-color: var(--Dark-Green-20, #234338);
+    background-color: var(--thin_main);
     display: flex;
     margin-top: 50px;
     width: 100%;
