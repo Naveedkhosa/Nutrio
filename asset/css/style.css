@@ -1161,6 +1161,7 @@
   }
   .heading_p {
     color: var(--text_color);
+    font-size: 30px;
     font: 700 48px/150% Urbanist, sans-serif;
   }
   @media (max-width: 991px) {
@@ -1170,7 +1171,7 @@
     }
     .heading_p {
       max-width: 100%;
-      font-size: 20px;
+      font-size: 26px;
     }
   }
   .div-72 {
