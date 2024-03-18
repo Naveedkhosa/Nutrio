@@ -285,7 +285,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+            <p class="para_p">I've been having stomach issues for a while now and seeking help from a nutritionist was the best decision I've ever made. Nutritionist Mansab Ali gave me a good nutrition plan that made me healthy. I am now healthy and grateful for the expert advice I received. Highly recommended!</p>
           </div>
           <div class="review_r_top">
             <p class="thin_smal">four days ago</p>
@@ -309,7 +309,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+            <p class="para_p">Hello. Your guidance and meal plan helped me lose weight successfully. Thank you for your help and giving us a new life. I would recommend your services to anyone looking for weight loss solutions.</p>
           </div>
           <div class="review_r_top">
             <p class="thin_smal">15 days ago</p>
@@ -333,7 +333,9 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+            <p class="para_p">After struggling with PCOS and undergoing unsuccessful treatment, I sought help from a nutritionist. Their unique diet plan resulted in immediate and immediate success. I am healthy and happy."
+
+"I recommend this to all women with PCOS: Get in touch with this diet "Go ahead. Expert."</p>
           </div>
           <div class="review_r_top">
             <p class="thin_smal">1 month ago</p>
@@ -357,7 +359,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+            <p class="para_p">My experience with nutritionist Ali was completely transformative. Weighing 90kg, I feel the weight of bad habits and lack of direction. But Ali's Personalized Diet Plan showed me the path to success. With the efforts and guidance of Ali's experts, I lost 25 kilos and reached 65 kilos.</p>
           </div>
           <div class="review_r_top">
             <p class="thin_smal">2 month ago</p>
@@ -373,7 +375,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
                 <!-- <img src="asset/images/girl1.avif" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed Sajid</p>
+                 <p class="solid_smal">Hanif Sajid</p>
                  <p class="thin_smal space_top">Pakistan</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
@@ -381,7 +383,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+            <p class="para_p">Lately I have been facing serious health problems due to liver disease which causes pain and bloating. But with the guidance of a nutritionist, I experienced a visible change. Thank God, my health has improved and I am happy to be better than before. My own journey is not only inspiring, but also motivates me to share this transformation with others. I recommend that anyone experiencing health problems immediately seek the support of a nutritionist. Their expertise can make a real difference to your health.</p>
           </div>
           <div class="review_r_top">
             <p class="thin_smal">2 month ago</p>
