@@ -1159,8 +1159,16 @@
     color: var(--Grey-15, #262626);
     font: 700 48px/150% Urbanist, sans-serif;
   }
+  .heading_p {
+    color: var(--text_color);
+    font: 700 48px/150% Urbanist, sans-serif;
+  }
   @media (max-width: 991px) {
     .div-71 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+    .heading_p {
       max-width: 100%;
       font-size: 40px;
     }
