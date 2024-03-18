@@ -3172,3 +3172,8 @@
     flex-basis: auto;
     margin: auto 0;
 }
+
+.re_r_t_details p{
+  margin: 0;
+  padding: 0;
+}
