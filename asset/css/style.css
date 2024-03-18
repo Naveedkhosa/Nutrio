@@ -76,7 +76,7 @@
 .reviews_cards_main{
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 10px;
   flex-shrink: 0;
