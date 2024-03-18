@@ -3034,7 +3034,7 @@
   .div-207 {
     align-items: center;
     border-radius: 73px;
-    background-color: var(--Dark-Green-20, #234338);
+    background-color: var(--theme);
     display: flex;
     aspect-ratio: 1;
     justify-content: center;
