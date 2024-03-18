@@ -285,7 +285,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">I've been having stomach issues for a while now and seeking help from a nutritionist was the best decision I've ever made. Nutritionist Mansab Ali gave me a good nutrition plan that made me healthy. I am now healthy and grateful for the expert advice I received. Highly recommended!</p>
+          <p class="para_p">My experience with nutritionist Ali was completely transformative. Weighing 90kg, I feel the weight of bad habits and lack of direction. But Ali's Personalized Diet Plan showed me the path to success. With the efforts and guidance of Ali's experts, I lost 25 kilos and reached 65 kilos.</p>
+
           </div>
           <div class="review_r_top">
             <p class="thin_smal">four days ago</p>
@@ -359,7 +360,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
          
           </div>
           <div class="review_bottom">
-            <p class="para_p">My experience with nutritionist Ali was completely transformative. Weighing 90kg, I feel the weight of bad habits and lack of direction. But Ali's Personalized Diet Plan showed me the path to success. With the efforts and guidance of Ali's experts, I lost 25 kilos and reached 65 kilos.</p>
+          <p class="para_p">I've been having stomach issues for a while now and seeking help from a nutritionist was the best decision I've ever made. Nutritionist Mansab Ali gave me a good nutrition plan that made me healthy. I am now healthy and grateful for the expert advice I received. Highly recommended!</p>
+
           </div>
           <div class="review_r_top">
             <p class="thin_smal">2 month ago</p>
