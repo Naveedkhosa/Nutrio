@@ -184,7 +184,9 @@ function calculate_minutes_to_read($content, $average_speed = 35)
     <div class="div-194">
       <div class="div-195">
         <div class="div-196">
-          <div class="logo">Diet <span>irian</span></div>
+        <a class="navbar-brand" href="https://dietirian.com/">
+            Dietirian
+        </a>
           <div class="div-197">
             <a href="#" class="div-198">Home</a>
             <a href="about.php" class="div-199">About</a>
