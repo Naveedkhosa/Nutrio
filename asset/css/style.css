@@ -21,6 +21,10 @@
   font-size: 14px;
   font-weight: 300;
 }
+.center{
+  display: flex;
+  align-items: center;
+}
 /* testimonial style  start */
 .review_card{
   margin: 20px 0px;

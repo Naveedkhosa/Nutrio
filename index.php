@@ -262,7 +262,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     <div class="suisine_section_main">
       <p class="heading_p">Our Rating and Reviews</p>
       <!-- <p class="para_gray">Trained, Verified and Background Checked</p> -->
-      <div class="al_rev_count space_top">
+      <div class="al_rev_count center space_top">
         <iconify-icon icon="lets-icons:star-duotone"></iconify-icon>
         <p class="space_top">4.5 Rating <p class="para_p space_top"> &nbsp;(Based on 15K+ Reviews)</p></p>
       </div>
