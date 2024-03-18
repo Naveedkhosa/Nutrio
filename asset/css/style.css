@@ -13,7 +13,14 @@
     font-family: 'Poppins', sans-serif;
   
 }
-
+.solid_smal{
+  font-size: 16px;
+  font-weight: bold;
+}
+.thin_smal{
+  font-size: 14px;
+  font-weight: 300;
+}
 /* testimonial style  start */
 .review_card{
   margin: 20px 0px;
