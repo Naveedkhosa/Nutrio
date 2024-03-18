@@ -264,7 +264,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
       <!-- <p class="para_gray">Trained, Verified and Background Checked</p> -->
       <div class="al_rev_count space_top">
         <iconify-icon icon="lets-icons:star-duotone"></iconify-icon>
-        <p class="heading_p space_top">4.5 Rating <p class="para_p space_top"> &nbsp;(Based on 15K+ Reviews)</p></p>
+        <p class="space_top">4.5 Rating <p class="para_p space_top"> &nbsp;(Based on 15K+ Reviews)</p></p>
       </div>
       <div class="reviews_cards_main">
 
