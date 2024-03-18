@@ -273,12 +273,12 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
           <div class="review_top">
              <div class="review_r_top">
                <div class="re_r_t_img">
-                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/face1.jpg" alt="" loading="lazy">
+                <iconify-icon icon="iconamoon:profile-fill"></iconify-icon>
+                <!-- <img src="asset/images/face1.jpg" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed khosa</p>
-                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="solid_smal">Mark Harry</p>
+                 <p class="thin_smal space_top">UK, london</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
              </div>
@@ -297,12 +297,12 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
           <div class="review_top">
              <div class="review_r_top">
                <div class="re_r_t_img">
-                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/dr.jpg" alt="" loading="lazy">
+                <iconify-icon icon="iconamoon:profile-fill"></iconify-icon>
+                <!-- <img src="asset/images/dr.jpg" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed khosa</p>
-                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="solid_smal">David </p>
+                 <p class="thin_smal space_top">United state, NY</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
              </div>
@@ -312,7 +312,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
           </div>
           <div class="review_r_top">
-            <p class="thin_smal">four days ago</p>
+            <p class="thin_smal">15 days ago</p>
           </div>
         </div>
         <!-- review card  -->
@@ -321,12 +321,12 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
           <div class="review_top">
              <div class="review_r_top">
                <div class="re_r_t_img">
-                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/boy_image1.jpg" alt="" loading="lazy">
+                <iconify-icon icon="iconamoon:profile-fill"></iconify-icon>
+                <!-- <img src="asset/images/boy_image1.jpg" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed khosa</p>
-                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="solid_smal">Shurti Dhurv</p>
+                 <p class="thin_smal space_top">Banglore</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
              </div>
@@ -336,7 +336,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
           </div>
           <div class="review_r_top">
-            <p class="thin_smal">four days ago</p>
+            <p class="thin_smal">1 month ago</p>
           </div>
         </div>
         <!-- review card  -->
@@ -345,12 +345,12 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
           <div class="review_top">
              <div class="review_r_top">
                <div class="re_r_t_img">
-                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/boy_image3.avif" alt="" loading="lazy">
+                <iconify-icon icon="iconamoon:profile-fill"></iconify-icon>
+                <!-- <img src="asset/images/boy_image3.avif" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed khosa</p>
-                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="solid_smal">Vansh Banga</p>
+                 <p class="thin_smal space_top">India Delhi, Sector 57</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
              </div>
@@ -360,7 +360,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
           </div>
           <div class="review_r_top">
-            <p class="thin_smal">four days ago</p>
+            <p class="thin_smal">2 month ago</p>
           </div>
         </div>
         <!-- review card  -->
@@ -369,12 +369,12 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
           <div class="review_top">
              <div class="review_r_top">
                <div class="re_r_t_img">
-                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/girl1.avif" alt="" loading="lazy">
+                <iconify-icon icon="iconamoon:profile-fill"></iconify-icon>
+                <!-- <img src="asset/images/girl1.avif" alt="" loading="lazy"> -->
                </div>
                <div class="re_r_t_details">
-                 <p class="solid_smal">Naveed khosa</p>
-                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="solid_smal">Naveed Sajid</p>
+                 <p class="thin_smal space_top">Pakistan</p>
                  <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
                </div>
              </div>
@@ -384,7 +384,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
           </div>
           <div class="review_r_top">
-            <p class="thin_smal">four days ago</p>
+            <p class="thin_smal">2 month ago</p>
           </div>
         </div>
         <!-- review card  -->
