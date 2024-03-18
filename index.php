@@ -322,7 +322,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
              <div class="review_r_top">
                <div class="re_r_t_img">
                 <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
-                <img src="asset/images/noy_imgage1.jpg" alt="" loading="lazy">
+                <img src="asset/images/boy_imgage1.jpg" alt="" loading="lazy">
                </div>
                <div class="re_r_t_details">
                  <p class="solid_smal">Naveed khosa</p>
