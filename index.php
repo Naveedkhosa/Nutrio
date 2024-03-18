@@ -257,93 +257,141 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 
     </div>
     <!-- blogs -->
-    <div class="div-129">
-      <div class="div-130">
-        <div class="div-131">Our Testimonials</div>
-        <div class="div-132">
-          Our satisfied clients share their success stories and experiences on
-          their journey to better health and well-being.
-        </div>
+    
+    <!-- Rating and Reviews section start..  -->
+    <div class="suisine_section_main">
+      <p class="heading_p">Our Rating and Reviews</p>
+      <!-- <p class="para_gray">Trained, Verified and Background Checked</p> -->
+      <div class="al_rev_count space_top">
+        <iconify-icon icon="lets-icons:star-duotone"></iconify-icon>
+        <p class="heading_p space_top">4.5 Rating <p class="para_p space_top"> &nbsp;(Based on 15K+ Reviews)</p></p>
       </div>
-    </div>
-    <div class="div-133">
-      <div class="div-134">
-        <div class="column-15">
-          <div class="div-135">
-            <div class="div-136">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/78402e6aedfa3a62a6ae9c70c5b3394935f4086bcc7d680f19c06540eabcd12c?" class="img-29" />
-              <div class="div-137">
-                I can't thank Nutritionist enough for their personalized nutrition
-                coaching. It has completely transformed my approach to food and
-                helped me shed those extra pounds. Highly recommended!
-              </div>
-            </div>
-            <div class="div-138">
+      <div class="reviews_cards_main">
 
-              <div class="profile_circle">
-                <img loading="lazy" src="asset/images/girl2.avif" class="img-30" />
-              </div>
-              <div class="div-139">Jennifer Anderson</div>
-            </div>
+        <!-- review card  -->
+        <div class="review_card rating_card">
+          <div class="review_top">
+             <div class="review_r_top">
+               <div class="re_r_t_img">
+                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
+                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+               </div>
+               <div class="re_r_t_details">
+                 <p class="solid_smal">Naveed khosa</p>
+                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
+               </div>
+             </div>
+         
+          </div>
+          <div class="review_bottom">
+            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+          </div>
+          <div class="review_r_top">
+            <p class="thin_smal">four days ago</p>
           </div>
         </div>
-        <div class="column-16">
-          <div class="div-140">
-            <div class="div-141">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80ec84e9ad7ceb7e6e1e0a3e462cd02728a60451d1da310a117336ab73dc0895?" class="img-31" />
-              <div class="div-142">
-                Nutritionist has been a game-changer for me. The expert guidance
-                and support I received from their team made my weight loss journey
-                so much easier. Thank you!
-              </div>
-            </div>
-            <div class="div-143">
-
-              <div class="profile_circle">
-                <img loading="lazy" src="asset/images/boy_image3.avif" class="img-32" />
-              </div>
-              <div class="div-144">Robert Johnson</div>
-            </div>
+        <!-- review card  -->
+        <!-- review card  -->
+        <div class="review_card rating_card">
+          <div class="review_top">
+             <div class="review_r_top">
+               <div class="re_r_t_img">
+                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
+                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+               </div>
+               <div class="re_r_t_details">
+                 <p class="solid_smal">Naveed khosa</p>
+                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
+               </div>
+             </div>
+         
+          </div>
+          <div class="review_bottom">
+            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+          </div>
+          <div class="review_r_top">
+            <p class="thin_smal">four days ago</p>
           </div>
         </div>
-        <div class="column-17">
-          <div class="div-145">
-            <div class="div-146">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/622e8c929b4aa27b4847ea16003084206318c2085a56c54e55d815051e2b5276?" class="img-33" />
-              <div class="div-147">
-                I had struggled with my weight for years until I found
-                Nutritionist. Their personalized approach and tailored nutrition
-                plan made all the difference. I've never felt better!
-              </div>
-            </div>
-            <div class="div-148">
-
-              <div class="profile_circle">
-                <img loading="lazy" src="asset/images/boy_image3.avif" class="img-34" />
-              </div>
-              <div class="div-149">Emily Davis</div>
-            </div>
+        <!-- review card  -->
+        <!-- review card  -->
+        <div class="review_card rating_card">
+          <div class="review_top">
+             <div class="review_r_top">
+               <div class="re_r_t_img">
+                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
+                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+               </div>
+               <div class="re_r_t_details">
+                 <p class="solid_smal">Naveed khosa</p>
+                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
+               </div>
+             </div>
+         
+          </div>
+          <div class="review_bottom">
+            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+          </div>
+          <div class="review_r_top">
+            <p class="thin_smal">four days ago</p>
           </div>
         </div>
+        <!-- review card  -->
+        <!-- review card  -->
+        <div class="review_card rating_card">
+          <div class="review_top">
+             <div class="review_r_top">
+               <div class="re_r_t_img">
+                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
+                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+               </div>
+               <div class="re_r_t_details">
+                 <p class="solid_smal">Naveed khosa</p>
+                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
+               </div>
+             </div>
+         
+          </div>
+          <div class="review_bottom">
+            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+          </div>
+          <div class="review_r_top">
+            <p class="thin_smal">four days ago</p>
+          </div>
+        </div>
+        <!-- review card  -->
+        <!-- review card  -->
+        <div class="review_card rating_card">
+          <div class="review_top">
+             <div class="review_r_top">
+               <div class="re_r_t_img">
+                <!-- <iconify-icon icon="iconamoon:profile-fill"></iconify-icon> -->
+                <img src="components/imag/g_img/g_img (10).jpg" alt="" loading="lazy">
+               </div>
+               <div class="re_r_t_details">
+                 <p class="solid_smal">Naveed khosa</p>
+                 <p class="thin_smal space_top">Delhi, Sector 57</p>
+                 <p class="yelo_i space_top" > <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon> <iconify-icon icon="lets-icons:star-duotone"></iconify-icon></p>
+               </div>
+             </div>
+         
+          </div>
+          <div class="review_bottom">
+            <p class="para_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur maiores reiciendis quaerat quae voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quidem, molestias magni ipsa sed minima accusantium, corrupti, aperiam dolore natus nisi adipisci explicabo. Facere saepe minima, magni aperiam id nemo.</p>
+          </div>
+          <div class="review_r_top">
+            <p class="thin_smal">four days ago</p>
+          </div>
+        </div>
+        <!-- review card  -->
       </div>
     </div>
-    <div class="div-150">
-      <div class="div-151">
-        <div class="div-152">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3664d9f021538ecff558b007edc3ee66d446fc65606fd7d5d252d9640c33335?" class="img-35" />
-        </div>
-        <div class="div-153">
-          <div class="div-154"></div>
-          <div class="div-155"></div>
-          <div class="div-156"></div>
-          <div class="div-157"></div>
-          <div class="div-158"></div>
-        </div>
-        <div class="div-159">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5b2501245b621e326a517dad2d470fd4179b07b1a996b6425435d856ce677bf?" class="img-36" />
-        </div>
-      </div>
-    </div>
+    <!-- Rating and Reviews section end..  -->
+
     <div class="div-160">
       <div class="div-161">
         <div class="div-162">Our Pricing</div>
@@ -474,6 +522,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
