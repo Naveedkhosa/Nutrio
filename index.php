@@ -81,7 +81,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             Wellcom to Nutritionists, our certified nutritionists are dedicated to helping you achieve wellness through treatment planning and ongoing support. Start your weight loss journey today and discover the benefits of personal nutrition coaching.
             </div>
             <div class="div-24">
-              <a href="" class="div-25">Get Appointment</a>
+              <a href="https://wa.link/h7rhjp" class="div-25">Get Appointment</a>
             </div>
             <div class="div-27">
               <div class="div_27_1">
@@ -494,10 +494,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a791a59734258aa73037e3b9a8c71dff93229d2044b7fec60c07a3bb19a744?" class="img-40" />
               <div class="div-213">+923411707664</div>
             </div>
-            <div class="div-214">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5a77779ad27c1b4d987d98e83e11d4145d03e5916065d159fb786ece12d9005?" class="img-41" />
-              <div class="div-215">Somewhere in the World</div>
-            </div>
+          
           </div>
           <div class="div-216">© 2023 to 2024 Dietirian. All rights reserved.</div>
         </div>
