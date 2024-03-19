@@ -2,7 +2,7 @@
     <div class="container">
        
         <a class="navbar-brand" href="https://dietirian.com/">
-            <img src="asset/logo-files/dietirian3.png" alt="" class="logo"> Dietirian
+            <img src="https://dietirian.com/asset/logo-files/dietirian3.png" alt="" class="logo"> Dietirian
         </a>
 
         <!-- Toggler/collapsibe Button -->
