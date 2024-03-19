@@ -423,7 +423,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <p class="Bold_font">$49</p>
               <p >/month</p>
             </div>
-            <div class="div_193">Choose Plan</div>
+            <!-- <div class="div_193">Choose Plan</div> -->
           </div>
         </div>
         <div class="column-19">
@@ -439,7 +439,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <p class="Bold_font">$79</p>
               <p >/month</p>
             </div>
-            <div class="div_193">Choose Plan</div>
+            <!-- <div class="div_193">Choose Plan</div> -->
           </div>
         </div>
         <div class="column-20">
@@ -455,7 +455,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               <p class="Bold_font">$99</p>
               <p >/month</p>
             </div>
-            <div class="div_193">Choose Plan</div>
+            <!-- <div class="div_193">Choose Plan</div> -->
           </div>
         </div>
       </div>
