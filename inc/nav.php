@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
-        <!-- Brand/logo -->
+       
         <a class="navbar-brand" href="https://dietirian.com/">
-            Dietirian
+            <img src="asset/logo-files/dietirian3.png" alt="" class="logo"> Dietirian
         </a>
 
         <!-- Toggler/collapsibe Button -->
