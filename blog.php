@@ -154,7 +154,7 @@ function calculate_minutes_to_read($content, $average_speed = 35)
                         </div>
                         <p><?= $blog_item['user_fullname'] ?></p>
                       </div>
-                      <a href="blog.php/<?= $blog_item['blog_slug'] ?>" class="title" id="cardTitle"><?= $blog_item['blog_title'] ?></a>
+                      <a href="https://dietirian.com/blog.php/<?= $blog_item['blog_slug'] ?>" class="title" id="cardTitle"><?= $blog_item['blog_title'] ?></a>
                     </div>
                   </div>
 
