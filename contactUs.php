@@ -68,37 +68,29 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             </div>
             <div class="card-conatct_con">
                 <p class="_head_solid_smal">Call</p>
-                <p class="para_p space_top">(+91) 9403891560</p>
+                <p class="para_p space_top">(+92)3411707664</p>
             </div>
         </a>
-          <a href="https://wa.link/5erg03" class="card_contact">
+          <a href="https://wa.link/tf6bsc" class="card_contact">
             <div class="card_contact_icn">
                 <iconify-icon icon="logos:whatsapp-icon"></iconify-icon>
             </div>
             <div class="card-conatct_con">
                 <p class="_head_solid_smal">Whatsapp</p>
-                <p class="para_p space_top">(+91) 9403891560</p>
+                <p class="para_p space_top">(+92) 3411707664</p>
             </div>
         </a>
-          <a href="mailto:support@lookmycook.com" class="card_contact">
+          <a href="mailto:support@dietirian.com" class="card_contact">
             <div class="card_contact_icn">
                 <iconify-icon icon="fluent:mail-16-regular"></iconify-icon>
             </div>
             <div class="card-conatct_con">
                 <p class="_head_solid_smal">E-Mail</p>
-                <p class="para_p space_top">support@lookmycook.com</p>
+                <p class="para_p space_top">support@dietirian.com</p>
             </div>
         </a>
-          <a href="FAQs" class="card_contact">
-            <div class="card_contact_icn">
-                <iconify-icon icon="ph:question"></iconify-icon>
-            </div>
-            <div class="card-conatct_con">
-                <p class="_head_solid_smal">FAQs</p>
-                <p class="para_p space_top">For quick questions & answers</p>
-            </div>
-        </a>
-          <a href="FAQs" class="card_contact">
+        
+          <a href="" class="card_contact">
             <div class="card_contact_icn">
             <iconify-icon icon="eos-icons:hourglass"></iconify-icon>
             </div>

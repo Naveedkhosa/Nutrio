@@ -170,7 +170,9 @@
   font-size: 35px;
 
 }
-
+p{
+  margin-bottom: 0px !important;
+}
 /* support help page style end */
 
 @media (max-width: 767px) {
