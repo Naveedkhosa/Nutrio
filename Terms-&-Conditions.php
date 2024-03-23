@@ -56,7 +56,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 <body>
     
   <?php include "inc/nav.php"; ?>
-    <div class="container">
+    <div class="container_">
         <header>
             <h1>Terms & Conditions</h1>
         </header>

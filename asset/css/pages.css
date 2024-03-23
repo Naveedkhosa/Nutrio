@@ -5,7 +5,7 @@ body {
     background-color: #f8f9fa;
 }
 
-.container {
+.container_ {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
@@ -43,7 +43,7 @@ main p {
 }
 
 @media only screen and (max-width: 600px) {
-    .container {
+    .container_ {
         width: 90%;
     }
 

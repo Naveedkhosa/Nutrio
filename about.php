@@ -64,7 +64,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 <div class="div">
   <?php include "inc/nav.php"; ?>
   
-       <div class="container">
+       <div class="container_">
         <header>
             <h1>About Us</h1>
         </header>
