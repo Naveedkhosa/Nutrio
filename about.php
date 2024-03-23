@@ -45,7 +45,9 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
      <link rel="stylesheet" href="asset/css/style.css">
 
   <!-- Bootstrap CSS -->
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- Poppins Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
     <link rel="stylesheet" href="asset/css/pages.css">
