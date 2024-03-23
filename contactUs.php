@@ -40,10 +40,17 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Dietirian</title>
-     <link rel="stylesheet" href="asset/css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Nutrition & Dietitian Services | Improve Health, Weight Loss & More</title>
+
+  <link rel="stylesheet" href="asset/css/style.css">
+  <!-- description -->
+  <meta name="description" content="World best nutritionist and dietirian">
+  <!-- tags or keywords -->
+  <meta name="keywords" content="nutrition, dietitian, weight loss, weight gain, meal plans, women's health, pregnancy nutrition, health improvement, personalized nutrition, diet counseling,community health, home care agencies, ProHealth Care MyChart, UnitedHealthCare Choice Plus, OptumCare Health Systems, AHCCCS, Tricare for Life, physicians, primary health, Universal Health Care, Advance Care, Medicare for All, private health care, home health care, MedStar Urgent Care, Carp United Healthcare, TriCare Prime, Providence Health Care, Mercy Cove, Humana Tricare Health Care Solutions, healthcare partners, family home health care services, value-based care, health clinics, medical services, nutritionist, weight loss, low carb diet, Mediterranean diet, Atkins diet, vegan diet, weight loss pills, whey protein, alkaline diet, Starbucks nutrition, 310 Shake, glucerna, chicken breast nutrition, balanced diet, fitness, vitamins, carbohydrates, food pyramid, nutrition facts, calorie deficit, paleo diet, diabetic diet, high protein diet, high calorie foods, 7 day diet plan, quinoa nutrition, breakfast nutrition, burger king nutrition, strawberries calories, Dunkin' Donuts nutrition, maple syrup calories, sweet potato calories, cucumber calories, chicken nutrition, egg nutrition, almond calories, salt calories, hydro whey, ultimate nutrition whey protein, nutrition-facts, nutrients, optimum nutrition, food pyramid, food labels, low calorie snacks, supplement store, nutritionist near me, dietary guidelines, healthy diet, high protein diet, nutritionist, dietitian, weight management, nutritional therapy, balanced nutrition, whole foods, essential nutrients, micronutrients, macronutrients, superfoods, plant-based diet, organic food, sports nutrition, immune system support, heart health, digestive health, brain health, bone health, antioxidant-rich foods, anti-inflammatory diet, gluten-free diet, lactose-free diet, low glycemic index foods, omega-3 fatty acids, probiotics, prebiotics, fiber-rich foods, hydration, water intake, hydration tips, healthy cooking, meal planning, mindful eating, portion control, healthy snacks, nutritional counseling, holistic nutrition, sustainable nutrition, world's best nutrition">
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -51,6 +58,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- Poppins Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+
     <link rel="stylesheet" href="asset/css/pages.css">
 </head>
 <body>
