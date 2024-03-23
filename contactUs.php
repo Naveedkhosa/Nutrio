@@ -68,7 +68,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             </div>
             <div class="card-conatct_con">
                 <p class="_head_solid_smal">Call</p>
-                <p class="para_p space_top">(+92)3411707664</p>
+                <p class="para_p space_top">(+92) 3411707664</p>
             </div>
         </a>
           <a href="https://wa.link/tf6bsc" class="card_contact">
