@@ -59,7 +59,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
   <!-- Poppins Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
 
-    <link rel="stylesheet" href="asset/css/pages.css">
+   
 </head>
 <body>
 <div class="div">
