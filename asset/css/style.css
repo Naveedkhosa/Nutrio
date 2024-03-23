@@ -198,6 +198,11 @@
   font-weight: bold;
 }
 
+.navbar-brand .logo{
+  width:60px;
+  margin-right: 5px;
+}
+
 .navbar-nav .nav-item .nav-link {
   position: relative; 
   transition: 0.3s;

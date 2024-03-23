@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
-        <!-- Brand/logo -->
+       
         <a class="navbar-brand" href="https://dietirian.com/">
-            Dietirian
+            <img src="https://dietirian.com/asset/logo-files/dietirian3.png" alt="" class="logo"> Dietirian
         </a>
 
         <!-- Toggler/collapsibe Button -->
@@ -14,19 +14,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="https://dietirian.com/index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
+                    <a class="nav-link" href="https://dietirian.com/about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="process.php">process</a>
+                    <a class="nav-link" href="https://dietirian.com/process.php">process</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blogs.php">Blogs</a>
+                    <a class="nav-link" href="https://dietirian.com/blogs.php">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactUs.php">Contact</a>
+                    <a class="nav-link" href="https://dietirian.com/contactUs.php">Contact</a>
                 </li>
             </ul>
         </div>
