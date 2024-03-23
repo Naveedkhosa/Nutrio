@@ -54,7 +54,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     <link rel="stylesheet" href="asset/css/pages.css">
 </head>
 <body>
-    
+<div class="div">
   <?php include "inc/nav.php"; ?>
 
       <!-- support help with contact start.  -->
@@ -112,6 +112,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         </div>
 
       </div>
+    </div>
     </div>
     <!-- support help with contact end.  -->
   

@@ -53,7 +53,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     <link rel="stylesheet" href="asset/css/pages.css">
 </head>
 <body>
-    
+<div class="div">
   <?php include "inc/nav.php"; ?>
   
        <div class="container">
@@ -80,6 +80,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             </section>
             <p>Thank you for considering Dietirian as your partner in health. I look forward to helping you achieve your wellness goals!</p>
         </main>
+    </div>
     </div>
     
       <!-- Bootstrap JS -->
