@@ -400,9 +400,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
       <div class="div-161">
         <div class="div-162">Our Pricing</div>
         <div class="div-163">
-          We outline our flexible and affordable options to support you on your
-          journey to optimal health and nutrition. We believe that everyone
-          deserves access to personalized nutrition guidance and resources
+        We present our range of adaptable and cost-effective options aimed at assisting you in achieving your goals for optimal health and nutrition. We advocate for the belief that personalized nutrition guidance and resources should be accessible to all.
         </div>
       </div>
     </div>
@@ -413,11 +411,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-18">
           <div class="div-170">
             <div class="div-171">Basic Plan</div>
-            <div class="div-172">Up to 50% off on Yearly Plan</div>
             <div class="div-173">
-              Get started on your health journey with our Basic Plan. It includes
-              personalized nutrition coaching, access to our app, meal planning
-              assistance, and email support.
+            Embark on your wellness journey with our Basic Plan, featuring tailored nutrition coaching, app access, meal planning aid, and email support to kickstart your health goals.
             </div>
             <div class="div_174">
               <p class="Bold_font">$49</p>
@@ -429,11 +424,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-19">
           <div class="div-178">
             <div class="div-179">Premium Plan</div>
-            <div class="div-180">Up to 50% off on Yearly Plan</div>
             <div class="div-181">
-              Upgrade to our Premium Plan for enhanced features. In addition to
-              the Basic Plan, you'll receive video consultations, priority
-              support, and personalized recipe recommendations.
+            Upgrade to our Premium Plan to access advanced features beyond the Basic Plan. With the Premium Plan, you'll enjoy benefits such as video consultations, priority support, and tailored recipe suggestions.
             </div>
             <div class="div_174">
               <p class="Bold_font">$79</p>
@@ -445,11 +437,8 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
         <div class="column-20">
           <div class="div-186">
             <div class="div-187">Ultimate Plan</div>
-            <div class="div-188">Up to 50% off on Yearly Plan</div>
             <div class="div-189">
-              Experience the full benefits of personalized nutrition coaching with
-              our Ultimate Plan. Enjoy all the features of the Premium Plan, along
-              with 24/7 chat support and exclusive workshops.
+            Unlock the complete advantages of personalized nutrition coaching through our Ultimate Plan. Access all Premium Plan features, complemented by 24/7 chat support and exclusive workshops for a comprehensive experience.
             </div>
             <div class="div_174">
               <p class="Bold_font">$99</p>
