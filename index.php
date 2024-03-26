@@ -100,7 +100,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
               </div>
               <div class="div-28">
                 <span style="font-weight: 700;">
-                  430+
+                  432+
                 </span>
                 <span class="text_main" >Happy Customers</span>
               </div>
