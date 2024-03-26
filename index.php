@@ -405,7 +405,6 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
       </div>
     </div>
 
-    <div class="div-167">Save 50% on Yearly</div>
     <div class="div-168">
       <div class="div-169">
         <div class="column-18">
@@ -455,8 +454,9 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
       <div class="div-195">
         <div class="div-196">
         <a class="navbar-brand" href="https://dietirian.com/">
-            Dietirian
+            <img src="https://dietirian.com/asset/logo-files/dietirian3.png" alt="" class="logo"> Dietirian
         </a>
+
           <div class="div-197">
             <a href="#" class="div-198">Home</a>
             <a href="about.php" class="div-199">About</a>
