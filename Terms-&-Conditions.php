@@ -1,47 +1,16 @@
-<?php include "config.php";
-
-function calculate_minutes_to_read($content, $average_speed = 35)
-{
-  $word_count = str_word_count(strip_tags($content));
-  $minutes = ceil($word_count / $average_speed);
-  return $minutes;
-}
-function loadBlogs($start, $limit, $where_clause = "", $order_by = "")
-{
-  global $conn;
-  $sql = "SELECT *, DATE_FORMAT(published_on,'%d %b %Y') AS published_on FROM blogs b INNER JOIN admin a ON b.blog_user=a.user_id";
-  $sql .= " WHERE b.blog_status='active' ";
-  if ($where_clause != "") {
-    $sql .= " AND " . $where_clause;
-  }
-
-  if (!empty($order_by)) {
-    $sql .= " ORDER BY " . $order_by;
-  }
-
-  $sql .= " LIMIT " . $start . "," . $limit;
-
-  try {
-    $result =  mysqli_query($conn, $sql);
-    if (mysqli_num_rows($result) > 0) {
-      return mysqli_fetch_all($result, MYSQLI_ASSOC);
-    } else {
-      return 0;
-    }
-  } catch (\Throwable $th) {
-    return false;
-  }
-}
-
-$blogs = loadBlogs(0, 6, '', 'blog_id DESC');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms & Conditions | Dietirian</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R5FKH3P');</script>
+<!-- End Google Tag Manager -->
      <link rel="stylesheet" href="asset/css/style.css">
 
   <!-- Bootstrap CSS -->
@@ -54,6 +23,10 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R5FKH3P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     
   <?php include "inc/nav.php"; ?>
     <div class="container_">
