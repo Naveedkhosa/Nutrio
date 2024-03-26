@@ -15,7 +15,7 @@ function printPagination($page_url, $current_page, $total_pages, $num_pages_disp
   $end_page = min($total_pages, $start_page + $num_pages_displayed - 1);
 
   if ($start_page > 1) {
-    $resulted_output .= "<li><a>...</a></li>";
+    $resulted_output .= "<li><a href='#'>...</a></li>";
   }
 
   for ($page = $start_page; $page <= $end_page; $page++) {
