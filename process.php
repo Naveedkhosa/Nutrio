@@ -41,7 +41,7 @@
                 <div class="div-40 position_relative">
                     <div class="count_step">01</div>
                 <div class="div-36">
-                  <div class="div-37">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/53c11a5ab58c763f9c6c39f03f76262c619985fecc088cb8b6534b2c4540b853?"
                       class="img-7" />
@@ -60,7 +60,7 @@
               <div class="div-40 position_relative">
                 <div class="count_step">02</div>
                 <div class="div-41">
-                  <div class="div-42">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1c3e108b82115ee10e07e5a2e7f999315ce1b647a5a43fdedad20c268fd3088?"
                       class="img-8" />
@@ -83,7 +83,7 @@
                 <div class="div-40 position_relative">
                     <div class="count_step">03</div>
                 <div class="div-48">
-                  <div class="div-49">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/bee7c088b7e0a4e175747000f40f11a9ae886244fddb86c6771afac06901466c?"
                       class="img-9" />
@@ -102,7 +102,7 @@
                 <div class="div-40 position_relative">
                     <div class="count_step">04</div>
                 <div class="div-53">
-                  <div class="div-54">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8b4872bc44cf6a92076483bd2127c84eef6fe370cc99f43609ec3f70f2f9bba?"
                       class="img-10" />
@@ -125,7 +125,7 @@
                 <div class="div-40 position_relative">
                     <div class="count_step">05</div>
                 <div class="div-60">
-                  <div class="div-61">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/f35b36742f7df1a38dfc1ba10a5a09087b1bf4924fa89cb437141859198c0571?"
                       class="img-11" />
@@ -144,7 +144,7 @@
                 <div class="div-40 position_relative">
                     <div class="count_step">06</div>
                 <div class="div-65">
-                  <div class="div-66">
+                  <div class="div_37">
                     <img loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2d4b2c23600d5ed6473ba32a51e20ce1f17fc69fdb94b86c2352362d3c0341c?"
                       class="img-12" />
