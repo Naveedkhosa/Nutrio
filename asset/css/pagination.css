@@ -38,6 +38,7 @@
 }
 
 .pagination__ li.active a {
-    background: #3c5e30;
+    background: #2f7a14;
     color: #ffffffe3;
+    border: 4px solid #2f7a14;
 }
