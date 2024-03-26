@@ -92,10 +92,10 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
                   <img loading="lazy" srcset="asset/images/boy_image1.jpg" class="img-6" />
                 </div>
                 <div class="happy_profile">
-                  <img loading="lazy" srcset="asset/images/man.jpg" class="img-6" />
+                  <img loading="lazy" srcset="asset/images/girl.jpg" class="img-6" />
                 </div>
                 <div class="happy_profile happy_profile2">
-                  <img loading="lazy" srcset="asset/images/girl.jpg" class="img-6" />
+                  <img loading="lazy" srcset="asset/images/man.jpg" class="img-6" />
                 </div>
               </div>
               <div class="div-28">
