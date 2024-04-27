@@ -15,7 +15,7 @@ function printPagination($page_url, $current_page, $total_pages, $num_pages_disp
   $end_page = min($total_pages, $start_page + $num_pages_displayed - 1);
 
   if ($start_page > 1) {
-    $resulted_output .= "<li><a>...</a></li>";
+    $resulted_output .= "<li><a href='#'>...</a></li>";
   }
 
   for ($page = $start_page; $page <= $end_page; $page++) {
@@ -102,7 +102,14 @@ function calculate_minutes_to_read($content, $average_speed = 35)
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blogs | </title>
+  <title>Blogs | Dietirian</title>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R5FKH3P');</script>
+<!-- End Google Tag Manager -->
   <link rel="stylesheet" href="asset/css/style.css">
   <link rel="stylesheet" href="asset/css/pagination.css">
 
@@ -116,6 +123,10 @@ function calculate_minutes_to_read($content, $average_speed = 35)
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R5FKH3P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <div class="div">
 
 

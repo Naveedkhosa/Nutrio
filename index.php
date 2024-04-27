@@ -44,6 +44,15 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Nutrition & Dietitian Services | Improve Health, Weight Loss & More</title>
 
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R5FKH3P');</script>
+<!-- End Google Tag Manager -->
+
+
   <link rel="stylesheet" href="asset/css/style.css">
   <!-- description -->
   <meta name="description" content="World best nutritionist and dietirian">
@@ -61,6 +70,11 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R5FKH3P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
   <div class="div">
 
 
@@ -212,9 +226,9 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     </div>
     <div class="div-69">
       <div class="div-70">
-        <div class="div-71">Our Blogs</div>
+        <div class="div-71">Recent Blogs</div>
         <div class="div-72">
-        Explore our blog, newsletters and engaging articles created by our team of nutritionists, nutritionists and health experts. Get access to a wealth of valuable insights and engaging content waiting for you.
+        Explore our recent blog, newsletters and engaging articles created by our team of nutritionists, nutritionists and health experts. Get access to a wealth of valuable insights and engaging content waiting for you.
         </div>
       </div>
     </div>
@@ -259,13 +273,21 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
     <!-- blogs -->
     
     <!-- Rating and Reviews section start..  -->
+    <div class="div-69">
+      <div class="div-70">
+        <div class="div-71">Rating and Reviews</div>
+        <div class="div-72">
+        Hear from those who achieved their health goals with us
+        </div>
+      </div>
+    </div>
     <div class="suisine_section_main">
-      <p class="heading_p">Our Rating and Reviews</p>
+      <!-- <p class="heading_p">Our Rating and Reviews</p> -->
       <!-- <p class="para_gray">Trained, Verified and Background Checked</p> -->
-      <div class="al_rev_count center space_top">
+      <!-- <div class="al_rev_count center space_top">
         <iconify-icon icon="lets-icons:star-duotone"></iconify-icon>
         <p class="space_top">4.5 Rating <p class="para_p space_top"> &nbsp;(Based on 15K+ Reviews)</p></p>
-      </div>
+      </div> -->
       <div class="reviews_cards_main">
 
         <!-- review card  -->
