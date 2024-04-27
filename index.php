@@ -81,7 +81,7 @@ $blogs = loadBlogs(0, 6, '', 'blog_id DESC');
             Wellcom to Nutritionists, our certified nutritionists are dedicated to helping you achieve wellness through treatment planning and ongoing support. Start your weight loss journey today and discover the benefits of personal nutrition coaching.
             </div>
             <div class="div-24">
-              <a href="https://wa.link/tf6bsc" class="div-25">Get Appointment</a>
+              <a href="form.html" class="div-25">Get Appointment</a>
             </div>
             <div class="div-27">
               <div class="div_27_1">
