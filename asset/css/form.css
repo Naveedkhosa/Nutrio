@@ -46,7 +46,7 @@ form .line input{
     border-bottom:1px solid #ccc ;
     margin: 0;
     margin-right: 10px;
-    padding: 0px 10px;
+    padding: 5px 10px;
     width: 100%;
     max-width:max-content;
 }
@@ -62,11 +62,11 @@ form .line input{
     border-bottom:1px solid #ccc ;
     margin: 0;
     margin-right: 10px;
-    padding: 0px 10px;
+    padding: 5px 10px;
     width: 100%;
     max-width:100%;
 }
-form .line select{
+.line select{
     border: none;
     outline: none;
     border-bottom:1px solid #ccc ;
@@ -84,4 +84,45 @@ input[type=submit]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+@media (max-width:980px){
+    .form_main_page{
+        width: 100%;
+    }
+}
+@media (max-width:680px){
+    .two_side_box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .slash{
+        display: none;
+    }
+    form .line{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+    }
+    .input{
+        width: 100%;
+    }
+    form .line input{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .line select{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+
+    }
+}
+.symtom select{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    border-bottom:1px solid #ccc ;
+    color: #ccc;
 }
